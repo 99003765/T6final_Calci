@@ -17,13 +17,7 @@ void test_trig(void);
 void test_trig1(void);
 void conv(void);
 void bmic(void);
-void bmic1(void);
-void bmic2(void);
- void bmic3(void);
- void bmic4(void);
- void bmic5(void);
- void bmic6(void);
- void bmic7(void);
+
  
 
 
@@ -49,13 +43,7 @@ int main()
    RUN_TEST(test_trig1);
    RUN_TEST(conv);
    RUN_TEST(bmic);
-   RUN_TEST(bmic1);
-  RUN_TEST(bmic2);
-   RUN_TEST(bmic3);
-   RUN_TEST(bmic4);
-   RUN_TEST(bmic5);
-  RUN_TEST(bmic6);
-  RUN_TEST(bmic7);
+
   
    
 
@@ -104,37 +92,7 @@ TEST_ASSERT_EQUAL(13.88, P_D(10));
 }
 void bmic(void)
 {
-  TEST_ASSERT_EQUAL(underwt, bmicon(350,5)); 
-}
-void bmic1(void)
-{
-  TEST_ASSERT_EQUAL(normalwt, bmicon1(500,5)); 
-}
-void bmic2(void)
-{
-   TEST_ASSERT_EQUAL(overwt,bmicon2 (630,5)); 
-}
-void bmic3(void)
-{
-   TEST_ASSERT_EQUAL(overwt, bmicon3(700,5)); 
+  TEST_ASSERT_EQUAL(underwt, bmicon(400,5)); 
 }
 
- void bmic4(void)
-{
-   TEST_ASSERT_EQUAL(underwt, bmicon4(351,5)); 
-}          
-           
- void bmic5(void)
-{
-   TEST_ASSERT_EQUAL(normalwt, bmicon5(510,5)); 
-}          
-           
- void bmic6(void)
-{
-   TEST_ASSERT_EQUAL(overwt, bmicon5(634,5)); 
-}     
-           
-void bmic7(void)
-{
-   TEST_ASSERT_EQUAL(obesity, bmicon5(745,5)); 
-}     
+ 
