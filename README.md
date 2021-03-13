@@ -4,7 +4,7 @@ Visit [Pages for Report -optional](using github.io option)
 
 
  [![Cppcheck](https://github.com/99003765/babu/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/99003767/T6_Calculator/actions/workflows/cppcheck.yml)
- [![Git Inspector](https://github.com/99003765/babu/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/99003765/babu/actions/workflows/gitinspector.yml)  [![C/C++ CI](https://github.com/99003765/babu/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/99003765/babu/actions/workflows/c-cpp.yml)[![Unit Testing - Unity](https://github.com/99003765/babu/actions/workflows/unity.yml/badge.svg)](https://github.com/99003765/babu/actions/workflows/unity.yml)
+ [![Git Inspector](https://github.com/99003765/babu/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/99003765/babu/actions/workflows/gitinspector.yml)  [![C/C++ CI](https://github.com/99003765/babu/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/99003765/babu/actions/workflows/c-cpp.yml)[![Unit Testing - Unity](https://github.com/99003765/babu/actions/workflows/unity.yml/badge.svg)](https://github.com/99003765/babu/actions/workflows/unity.yml)[![CodeQuality Dynamic Code Analysis Valgrind](https://github.com/99003765/babu/actions/workflows/CodeQuality_Dynamic.yml/badge.svg)](https://github.com/99003765/babu/actions/workflows/CodeQuality_Dynamic.yml)
 
 
 ## Folder Structure
