@@ -60,12 +60,17 @@ void test_add(void) {
   TEST_ASSERT_EQUAL(30, add(10, 20));
   TEST_ASSERT_EQUAL(-10, add(10, -20));
  TEST_ASSERT_EQUAL(-25, add(-5, -20));
+  TEST_ASSERT_EQUAL(-15, add(5, -20));
+
+ 
 }
 
 void test_subtract(void) {
   TEST_ASSERT_EQUAL(-3, subtract(0, 3));
-   TEST_ASSERT_EQUAL(2, subtract(5, 3));
+   TEST_ASSERT_EQUAL(-2, subtract(-5, -3));
     TEST_ASSERT_EQUAL(7, subtract(5, -2));
+     TEST_ASSERT_EQUAL(-7, subtract(-5, 2));
+
 
 }
 
