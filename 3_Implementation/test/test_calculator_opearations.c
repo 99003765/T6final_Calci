@@ -10,6 +10,8 @@
 /* Prototypes for all the test functions */
 void test_add(void);
 
+
+
 void test_subtract(void);
 void test_multiply(void);
 void test_divide(void);
@@ -57,6 +59,7 @@ int main()
 void test_add(void) {
   TEST_ASSERT_EQUAL(30, add(10, 20));
   TEST_ASSERT_EQUAL(-10, add(10, -20));
+ TEST_ASSERT_EQUAL(-25, add(-5, -20));
 }
 
 void test_subtract(void) {
