@@ -16,7 +16,7 @@ void test_subtract(void);
 void test_multiply(void);
 void test_divide(void);
 void test_trig(void);
-void test_trig1(void);
+//void test_trig1(void);
 void conv(void);
 void bmic(void);
 
@@ -42,7 +42,7 @@ int main()
   RUN_TEST(test_multiply);
   RUN_TEST(test_divide);
   RUN_TEST(test_trig);
-   RUN_TEST(test_trig1);
+   //RUN_TEST(test_trig1);
    RUN_TEST(conv);
    RUN_TEST(bmic);
 
@@ -81,14 +81,14 @@ void test_divide(void) {
 }
 void test_trig(void) {
   TEST_ASSERT_EQUAL(0.893997, sin_angle(90));
-  
+  TEST_ASSERT_EQUAL(0, cos_angle(90));
   
 }
-void test_trig1(void) {
+/*void test_trig1(void) {
   TEST_ASSERT_EQUAL(0, cos_angle(90));
   
   
-}
+}*/
 void conv(void)
 {
 TEST_ASSERT_EQUAL(13.88, P_D(10));  
