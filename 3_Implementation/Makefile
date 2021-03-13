@@ -32,7 +32,7 @@ INC	= -Iinc\
 INCLUDE_LIBS =
 
 # Project Output name
-PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).out 
+PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).out
 
 # Document files
 DOCUMENTATION_OUTPUT = documentation/html
