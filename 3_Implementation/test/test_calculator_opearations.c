@@ -76,12 +76,21 @@ void test_subtract(void) {
 
 void test_multiply(void) {
   TEST_ASSERT_EQUAL(0, multiply(1, 0));
+   TEST_ASSERT_EQUAL(15, multiply(5, 3));
+    TEST_ASSERT_EQUAL(-15, multiply(5, -3));
+     TEST_ASSERT_EQUAL(15, multiply(-5, -3));
+     TEST_ASSERT_EQUAL(-42, multiply(-7, 6));
+
+
+
+
   
  
 }
 
 void test_divide(void) {
   TEST_ASSERT_EQUAL(0, divide(1, 0));
+
   
 
 }
