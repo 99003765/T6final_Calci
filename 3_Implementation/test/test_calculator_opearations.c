@@ -82,6 +82,10 @@ void test_divide(void) {
 void test_trig(void) {
   TEST_ASSERT_EQUAL(0.893997, sin_angle(90));
   TEST_ASSERT_EQUAL(0, cos_angle(90));
+   TEST_ASSERT_EQUAL(1, cos_angle(0));
+   TEST_ASSERT_EQUAL(0, sin_angle(0));
+
+
   
 }
 /*void test_trig1(void) {
