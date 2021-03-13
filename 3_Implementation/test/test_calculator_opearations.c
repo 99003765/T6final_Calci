@@ -90,6 +90,16 @@ void test_multiply(void) {
 
 void test_divide(void) {
   TEST_ASSERT_EQUAL(0, divide(1, 0));
+   TEST_ASSERT_EQUAL(0, divide(0, 1));
+   TEST_ASSERT_EQUAL(4, divide(20, 5));
+   TEST_ASSERT_EQUAL(-5, divide(-15, 3));
+   TEST_ASSERT_EQUAL(-20, divide(40, -2));
+   TEST_ASSERT_EQUAL(6, divide(-30, -5));
+
+
+
+
+ 
 
   
 
