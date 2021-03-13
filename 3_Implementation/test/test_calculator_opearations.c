@@ -64,7 +64,8 @@ void test_add(void) {
 
 void test_subtract(void) {
   TEST_ASSERT_EQUAL(-3, subtract(0, 3));
-  
+   TEST_ASSERT_EQUAL(2, subtract(5, 3));
+    TEST_ASSERT_EQUAL(7, subtract(5, -2));
 
 }
 
