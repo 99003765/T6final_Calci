@@ -125,6 +125,20 @@ TEST_ASSERT_EQUAL(13.88, P_D(10));
 void bmic(void)
 {
   TEST_ASSERT_EQUAL(underwt, bmicon(400,5)); 
+   TEST_ASSERT_EQUAL(underwt, bmicon(401,5)); 
+   TEST_ASSERT_EQUAL(underwt, bmicon(402,5)); 
+   TEST_ASSERT_EQUAL(underwt, bmicon(403,5)); 
+   TEST_ASSERT_EQUAL(underwt, bmicon(404,5)); 
+   TEST_ASSERT_EQUAL(underwt, bmicon(405,5)); 
+   TEST_ASSERT_EQUAL(underwt, bmicon(407,5)); 
+   TEST_ASSERT_EQUAL(underwt, bmicon(410,5)); 
+
+
+
+
+
+
+
 }
 
  
