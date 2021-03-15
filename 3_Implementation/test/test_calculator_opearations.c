@@ -132,13 +132,18 @@ void conv(void)
 void bmic(void)
 {
   TEST_ASSERT_EQUAL(underwt, bmicon(400,5)); 
-   TEST_ASSERT_EQUAL(underwt, bmicon(401,5)); 
-   TEST_ASSERT_EQUAL(underwt, bmicon(402,5)); 
-   TEST_ASSERT_EQUAL(underwt, bmicon(403,5)); 
-   TEST_ASSERT_EQUAL(underwt, bmicon(404,5)); 
-   TEST_ASSERT_EQUAL(underwt, bmicon(405,5)); 
-   TEST_ASSERT_EQUAL(underwt, bmicon(407,5)); 
-   TEST_ASSERT_EQUAL(underwt, bmicon(410,5)); 
+   TEST_ASSERT_EQUAL(underwt, bmicon(600,7)); 
+
+   TEST_ASSERT_EQUAL(normalwt, bmicon(530,5)); 
+
+   TEST_ASSERT_EQUAL(normalwt, bmicon(800,6)); 
+
+   TEST_ASSERT_EQUAL(overwt, bmicon(700,5)); 
+
+   TEST_ASSERT_EQUAL(overwt, bmicon(900,6)); 
+
+   TEST_ASSERT_EQUAL(obesity, bmicon(700,4)); 
+ TEST_ASSERT_EQUAL(obesity, bmicon(600,4)); 
 
 
 }
