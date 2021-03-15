@@ -19,18 +19,17 @@ Folder             | Description
 
 PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
-99003729 | Anuj Shar  | Distance Conversion, Metre to inches and Metre to feet   | 3 | 8 | 10 | 10    
-99003732 | Anushka Shivalli | Area and Perimeter, Compute area for Circle and Square and Compute perimeter for Square and rectangle | 2 | 3 | 10 | 10 |
-99003730 | Arnav Kandpal  | Password Protection    | 4     | 4   |3   |3    
-99003728 | Mohammed Ijaz  | Arithematic operations    | 7     | 6   |6   |6   
+99003762 | Anuj Sharma  | Conversions   | 3 | 5 | 8 | 8    
+99003765 | Sharath Neelappa Saunshi | Arithmatic Operations | 2 | 3 | 19 | 19 |
+99003767 | Darpan Rangappa Patil | Trigonometry    | 4     | 4   | 4   |4    
+99003775 | Amit Kumar  | BMI    | 5     | 4   |8   |8   
 
 
 ## Challenges Faced and How Was It Overcome
+ Test cases were not passing so just fixed the numerical error in the code and then it passed.
+ Added project insights in the readme file using dillinger.
+ We were not able to run the make file, we solved it by adding a path to directory.
 
-1. Darpan Patil- Test cases were not passing so just fixed the numerical error in the code and then it passed.
-2. Sharath saunshi-
-3. Amit kumar-
-4. Anuj sharma-
 
 ## Learning Resources
 1. [markdownCheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
