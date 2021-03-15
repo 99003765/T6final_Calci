@@ -88,7 +88,8 @@ void test_multiply(void) {
  
 }
 
-void test_divide(void) {
+void test_divide(void) 
+{
   TEST_ASSERT_EQUAL(0, divide(1, 0));
    TEST_ASSERT_EQUAL(0, divide(0, 1));
    TEST_ASSERT_EQUAL(4, divide(20, 5));
@@ -113,11 +114,7 @@ void test_trig(void) {
 
   
 }
-/*void test_trig1(void) {
-  TEST_ASSERT_EQUAL(0, cos_angle(90));
-  
-  
-}*/
+
 void conv(void)
 {
  TEST_ASSERT_EQUAL(13.888889, P_D(10));
@@ -130,13 +127,6 @@ void conv(void)
  TEST_ASSERT_EQUAL(100, P_D(72));
  
  
- /*TEST_ASSERT_EQUAL(338.706, F_K(150));
- TEST_ASSERT_EQUAL(138.28, C_F(54.6));
- TEST_ASSERT_EQUAL(24.06, I_D(1750));
- TEST_ASSERT_EQUAL(174.08, P_D(25));
- TEST_ASSERT_EQUAL(79.4444, F_C(175));
- TEST_ASSERT_EQUAL(83949.58, D_I(1154.2));*/
-
 }
 
 void bmic(void)
