@@ -48,3 +48,34 @@ PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
  ![Contributions](https://user-images.githubusercontent.com/78848692/111102557-63ad4d80-8572-11eb-94a8-40649c1eb3df.jpg)                                                                       
 
 
+
+
+
+
+EPIC :
+
+Introduction :
+
+Funnel entry date 15/02/2021
+
+Epic name Calculator
+
+Epic owner - TEAM 6
+
+Epic
+
+descriptions Secured, user friendly, and well featured calculator that can be available at affordable price. For <Educational institutions> Who <Students> The <calculator with extra features> Is a <by addition of area and perimeter computation> That < enhances calculation speed> Unlike < the existing calculators, which does not have an option to compute conversions and BMI feature> Our solution <to produce a calculator the includes extra features (Basic, Conversions, trigonometric+ BMI >
+
+The additional features in calculators enables the users in quick computation of all data type values (int, float, double) and hence results in enhanced calculation speed. Thus, there is a need for a secured, user friendly, and well featured calculators that can be available at affordable price.
+
+USER STORIES :
+
+Based on the high level and low level requirements of the designed calculator, the following are the user stories from the perspective of the end user :
+
+1. Basic arithmetic operations
+
+2. Trigonometric
+
+3. Conversions
+
+4. BM
