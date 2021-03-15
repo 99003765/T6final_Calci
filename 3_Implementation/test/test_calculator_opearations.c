@@ -1,7 +1,7 @@
 #include "unity.h"
 #include "operation.h"
 #include"trignometry.h"
-#include"Conversion.h"
+#include "Conversion.h"
 #include"BMI.h"
 /* Modify these two lines according to the project */
 
@@ -120,8 +120,16 @@ void test_trig(void) {
 }*/
 void conv(void)
 {
-TEST_ASSERT_EQUAL(13.88, P_D(10));  
+ TEST_ASSERT_EQUAL(13.88, P_D(10));  
+ TEST_ASSERT_EQUAL(338.706, F_K(150));
+ TEST_ASSERT_EQUAL(138.28, C_F(54.6));
+ TEST_ASSERT_EQUAL(24.06, I_D(1750));
+ TEST_ASSERT_EQUAL(174.08, P_D(25));
+ TEST_ASSERT_EQUAL(79.4444, F_C(175));
+ TEST_ASSERT_EQUAL(83949.58, D_I(1154.2));
+
 }
+
 void bmic(void)
 {
   TEST_ASSERT_EQUAL(underwt, bmicon(400,5)); 
@@ -134,11 +142,5 @@ void bmic(void)
    TEST_ASSERT_EQUAL(underwt, bmicon(410,5)); 
 
 
-
-
-
-
-
 }
-
  
