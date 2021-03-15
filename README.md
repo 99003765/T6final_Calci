@@ -17,12 +17,12 @@ Folder             | Description
 
 ## Contributors List and Summary
 
-PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
+PS No. |  Name   |    Features    |No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
-`99003762` | Anuj Sharma  | Conversions    |      0 | 0  |8 |8    
-`99003765` | Sharath Saunshi  | Basic conversions     | 0     | 0   |19   |19 
-`99003767` | Darpan Patil  | Trignometry    | 0     | 0  |4     |4  
-`99003775` | Amit Kumar  | BMI    | 0    | 0   |8   |8   
+`99003762` | Anuj Sharma  | Conversions    |     |8 |8    
+`99003765` | Sharath Saunshi  | Basic conversions   |19   |19 
+`99003767` | Darpan Patil  | Trignometry    |4     |4  
+`99003775` | Amit Kumar  | BMI    |8   |8   
 
 
 ## Challenges Faced and How Was It Overcome
